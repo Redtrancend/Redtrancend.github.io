@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>игры в загадки </title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var correctAnswersCount = 0;
+        function askQuestion(textBoxId, answer) {
+            var userAnswer = document.getElementById(textBoxId).value;
+            userAnswer = userAnswer.toLowerCase();
+            if (userAnswer == answer) {
+                correctAnswersCount++;
+            }
+            document.getElementById(textBoxId).value = '';
+        }
+        function playPuzzle() {
+            askQuestion('userAnswer1', 'елка');
+            askQuestion('userAnswer2', 'капуста');
+            document.getElementById('result').innerHTML = 
+            '<b class="myClass">Вы угадали ' + correctAnswersCount + ' загадок</b>';
+            correctAnswersCount = 0;
+        }
+    </script>
+    <script >
+        var score = 0;
+        function askQuestion(question, answer, score) {
+            var userAnswer =  prompt(question);
+            userAnswer = userAnswer.toLowerCase();
+            if (userAnswer == answer) {
+                alert('Поздравляем, вы угадали');
+                score++;
+            } else { 
+                alert('Ошибочка!');
+        }
+    }
+    askQuestion('Зимой и летом одним цветом', 'елка')
+    askQuestion('Сто одежек и все без застежек?',' капуста')
+    askQuestion('Загадка1?', 'ответ1')
+    alert('угадали'+ score+'загадок');
+    </script>
+</head>
+<body>
+    <div id="headerWrap">
+        <div id="header">
+        
+            <a href="C:\Users\xmi07\Desktop\хт\2 urok igri.html">Загадки</a>
+            <span>/</span>
+
+            <a href="2 urok igri.html">Угадайка</a>
+
+        </div>
+    </div>
+
+    <div id="contentWrap">
+        <div id="content">
+            <div id="center">
+                <h1>Игра в загадки</h1>
+                <div id="box">
+                    <p id="result"></p>
+                    <p>Зимой и летом одним цветом?</p>
+                    <input type="text" id="userAnswer1">
+                    <p>Сто одежек и все без застежек?</p>
+                    <input type="text" id="userAnswer2">
+                    <br><br>
+                    <a href="#" onclick="playPuzzle();">Ответить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contentWrap">
+        <div id="content">
+            <div id="center">
+                <h1>Угадайка . </h1>
+                <div id="box">
+                    <p>играют 2 игрока. у вас неограниченное количество попыток,чтобы угадать число.</p>
+                    <p id="result"></p>
+                    <p>Зимой и летом одним цветом?</p>
+                    <br>
+<a href="" onclick="alert('go");" >Начать игру </a>"
+
+                    <input type="text" id="userAnswer1">
+                    <p>Сто одежек и все без застежек?</p>
+                    <input type="text" id="userAnswer2">
+                    <br><br>
+                    <a href="#" onclick="playPuzzle();">Ответить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

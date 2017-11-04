@@ -1,0 +1,187 @@
+body {
+	color: blue;
+	background: #f8f8f8;
+}
+h1 {text-align: center;}
+.menu  {
+	color: black;
+	font-style: italic; 
+	font-size: 20px;
+}
+.tovar {
+	background: #eaeaea;
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	
+}
+#tovar, #kratkoe {
+	float: right;
+}
+#kratkoe  {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+#podrob {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+#charac {
+	font-style: oblique;
+}
+input [type="text"]
+{
+	height: 900px;
+	width: 900px;
+	color: yellow;
+	font-size: 80px;
+}
+a:link:hover
+{	color:  red;}
+a:visited:hover
+{	color:  #CCC;}
+input 
+{display: blue;
+	background-color: yellow
+}
+input:first-line
+{ color: #930;}
+ .colortext {
+    background-color: #ffe;}
+.emailn:{
+}
+input {
+	width: 140px;
+	height: 30px;
+}
+input:focus {	background-color: #ffe;}
+input
+{  text-transform: capitalize ;
+}
+.container {
+	flex: : center;
+	width: 40px;
+}
+.header {
+	height: 440px;
+	float: right;
+	margin-right: 15px;
+	clear: both;
+}
+.img {
+	margin-left: 14px;
+	border: 10px;
+}
+.footer {
+	height: 23px;
+	background: green;
+	margin-right: 50px;
+	margin-top: 66px;
+	float: right;
+	clear: both;
+}
+.elpik, .elementpick{
+	height: 10px;
+	width: 250px;
+	clear: both;
+	margin: 5px;
+	border: 12px;
+	float: left;}
+ {	height: 102px;
+	width: 130px;
+	float: left;
+	border: 1px;
+	clear: both;
+}
+.footer { clear: both;
+height: 24px;}
+.menub {float: left;
+	margin-right: 20px;}
+.glav{
+	float: left;
+	margin-right: 15px;
+}
+.katal {
+	float: left;
+	margin-left: 5px;
+margin-right: 15px;}
+.kontkt {
+	float: left;
+	margin-left: 5px;
+}
+header {
+	width: 100%;
+	height: 342px;
+	position: relative;
+	filter: grayscale(100%);
+}
+.logo1  {
+	left: 226px;
+	top: 16px;
+	position: absolute;
+}
+#navbar {
+	list-style-type: none;
+	padding: 0px;
+}
+#navbar a {
+	text-decoration: none;
+	background-color: #00BFFF;
+	padding: 10px;
+	padding-left: 42px;
+	display: block;
+	font-family: roboto; 
+	font-size: 14px;
+	font-weight: 600;
+	color: black;	
+}
+#navbar a:hover  { background-color: yellow;
+    	font-weight:  700;
+		color: green;
+		}
+.content, .left, .bg_menu, .right, header, div, footer, .container {
+
+}
+.content {
+	background-image: url("C:\Users\xmi07\Desktop\хт/bg.png");
+	margin: auto;
+	width: 1000px;
+}
+.left {
+ float: left;
+ width: 330px;
+ margin-left: 32px;
+}
+.right {
+	float: right;
+	background-color: green;
+	width: calc(100%-270px);
+}
+.bg_menu {
+	background-color: black;
+	height: 475px;
+	width: 271px;
+	margin-top: 0px;
+}
+#menus {
+	background-color: black;
+	border-color: black;
+	color: white;
+}
+form label {
+	display: inline-block;
+margin-top: 25px;
+}
+form input [type="text"] {
+	width: 350px;
+	height: 30px ;
+	margin-left: 10px;
+}
+.left {
+	font-weight: 500;
+}
